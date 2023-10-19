@@ -1,0 +1,41 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="styles/sttle.css")
+    body         
+        include modules/header 
+
+        h1.yslyga Услуги
+
+        table 
+            tr
+                th Услуга
+                th Отделка внутри
+                th Отделка снаружи
+                th Цена
+            tr
+                td Застеклить лоджию
+                td 
+                    li 
+                        ul Пвх панели
+                td(rowspan = "2") Виниловый сайдинг
+                td 2 181 /м2
+            tr 
+                td Балкон в "хрущевке"
+                td
+                    li 
+                        ul Евро-вагонка
+                td 1 772/м2
+            tr 
+                td Панорамный балкон
+                td 
+                    ul 
+                        li Искусственный камень
+                td Не требуется
+                td 2 346ю/м2
+
+
+        include modules/footer

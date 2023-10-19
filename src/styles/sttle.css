@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(51, 144, 243);
+  margin: 0 auto;
+  height: 75px;
+}
+
+header ul {
+  text-align: center;
+}
+
+header ul li {
+  margin-top: 25px;
+  color: white;
+  font-size: 23px;
+  font-weight: 100;
+  list-style-type: none;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  padding-top: 220px;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 90px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.main p {
+  font-weight: 600;
+  margin-top: 25px;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.main :nth-child(3) {
+  margin-top: -5px;
+}
+
+.main {
+  background-image: url(img/1675323486_foni-club-p-fon-okna-v-gorode-nochyu-17.jpg);
+  height: 700px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(15, 166, 203, 0.7);
+  background-blend-mode: overlay;
+}
+
+.Onas {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.infa h1 {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.infa :nth-child(1) {
+  margin-top: -10px;
+}
+
+.infa p {
+  font-size: 20px;
+}
+
+.infa :nth-child(2) {
+  margin-top: 5px;
+}
+
+.infa :nth-child(6) {
+  margin-top: 5px;
+}
+
+.infa :nth-child(9) {
+  margin-top: 5px;
+}
+
+.infa :nth-child(12) {
+  margin-top: 5px;
+}
+
+.infa :nth-child(15) {
+  margin-top: 5px;
+}
+
+.kartinka {
+  background-image: url(img/dreamstimeextralarge_56707551-1200x800-1.jpg);
+  width: 500px;
+  height: 500px;
+}
+
+.rass p {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 600;
+  font-size: 55px;
+}
+
+.pole {
+  width: 1600px;
+  height: 150px;
+  border: 1px solid rgb(51, 144, 243);
+  border-radius: 20px;
+  background-color: rgb(51, 144, 243);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.email input {
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 60%;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.pole button {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 22%;
+  font-size: 40px;
+  margin: 0 auto;
+  margin-left: 70%;
+  margin-top: -50px;
+}
+
+table {
+  border: 1px solid black;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 25pt;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 25pt;
+}
+
+.yslyga {
+  font-size: 55px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+footer {
+  background-color: rgb(51, 144, 243);
+  height: 75px;
+  color: white;
+  text-align: center;
+}
+
+footer div {
+  padding-bottom: 25px;
+}/*# sourceMappingURL=sttle.css.map */
